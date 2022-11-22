@@ -4,6 +4,10 @@
   <artifactId>rest_Assured</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>restproject</name>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <dependencies>
 <!-- its used to test rest api-->
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->

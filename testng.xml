@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="rest_Assured_curdoperation.GetSingleData"/>
+      <class name="rest_Assured_curdoperation.PartialUpdate"/>
+      <class name="rest_Assured_curdoperation.Create_user"/>
+      <class name="rest_Assured_curdoperation.DeleteUser"/>
+      <class name="rest_Assured_curdoperation.UpdateUser"/>
+      <class name="rest_Assured_curdoperation.Getall"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
